@@ -53,8 +53,8 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Chartered Accountants is running");
+  res.send("MCS server is running");
 });
 app.listen(port, () => {
-  console.log(`Chartered Accountants server side running on port ${port}`);
+  console.log(`MCS server side running on port ${port}`);
 });
